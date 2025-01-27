@@ -24,7 +24,7 @@ const port = process.env.PORT || 3000;
 
 // Configure CORS
 const corsOptions = {
-  origin: ["http://91.108.105.231:3001","http://localhost:3002","http://13.202.255.24:3000"],// Allow your frontend origin
+  origin: ["http://91.108.105.231:3001","http://localhost:3002","http://13.202.255.24:3002"],// Allow your frontend origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed HTTP methods
   credentials: true, // If you need to send cookies
   optionsSuccessStatus: 204,
