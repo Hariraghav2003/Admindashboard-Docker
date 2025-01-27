@@ -1,0 +1,50 @@
+/* Table Stylesheet */
+.ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #1890ff !important;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #e6f7ff !important;
+    cursor: pointer;
+  }
+  
+  .ant-table-tbody > tr > td {
+    transition: background-color 0.3s ease;
+  }
+  
+  .ant-radio-wrapper {
+    margin-right: 16px;
+  }
+  
+  .ant-radio-wrapper:hover .ant-radio-inner {
+    border-color: #1890ff;
+  }
+  
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #1890ff;
+    background-color: #1890ff;
+  }
+  
+  .ant-radio-inner::after {
+    background-color: white;
+  }
+  
+  .ant-divider {
+    margin: 16px 0;
+  }
+
+  .ant-table-tbody > tr:nth-child(even) > td {
+    background-color: #f0f0f0; 
+}
+
+.ant-table-tbody > tr:nth-child(odd) > td {
+    background-color: #ffffff; 
+}

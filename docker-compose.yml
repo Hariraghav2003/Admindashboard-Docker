@@ -1,0 +1,19 @@
+version: '3'
+services: 
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3000:3000"
+    networks:
+      - mern-network
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3002:80"
+    networks:
+      - mern-network
+networks:
+  mern-network:
+    driver: bridge
