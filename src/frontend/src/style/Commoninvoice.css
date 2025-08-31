@@ -1,0 +1,10 @@
+/* commonInvoice Style sheet */
+.Accordionstyle{
+    width:800px;
+}
+.Accordionstyleforitem{
+    width:800px;
+}
+.subtotal{
+    border:"solid 2px #ccc"
+}
