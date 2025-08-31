@@ -18,5 +18,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Frontend and backend .env files
-backend/.env
-frontend/.env
+src/backend/.env
+src/frontend/.env
